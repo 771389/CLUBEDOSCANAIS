@@ -75,6 +75,7 @@ app.get('/routes/soma-total', (req, res) => {
 
 // Middleware para tratar erros
 app.use((err, req, res, next) => {
+  
   if (err.name === 'UnauthorizedError') {
     return res.status(401).json({ erro: 'Token inválido ou não fornecido.' });
   }
