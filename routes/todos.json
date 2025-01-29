@@ -1,5 +1,7 @@
-{
-    "recomendados": [
+
+
+[
+
         {
             "id": "dc3990ab-7ff8-48c9-8ddf-478fcdf0391a",
             "num": 1,
@@ -5720,4 +5722,3 @@
             "categoria": "jogos"
         }
     ]
-}
