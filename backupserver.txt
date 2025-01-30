@@ -17,7 +17,7 @@ const authMiddleware = expressJwt({
   secret: SECRET_KEY,
   algorithms: ['HS256']
 }).unless({
-  path: ['/login', '/routes/soma-total', '/search'] // Login, soma e search não exigem autenticação
+  path: ['/login', '/routes/soma-total'] // Login e soma não exigem autenticação
 });
 
 // Rota para fazer login e gerar o token
@@ -71,37 +71,11 @@ app.get('/routes/soma-total', (req, res) => {
   });
 });
 
-// Rota de pesquisa
-app.get('/search', (req, res) => {
-  const { query } = req.query;  // Pega o termo de busca via query string
-  
-  if (!query) {
-    return res.status(400).json({ erro: 'Você deve fornecer um termo de busca.' });
-  }
 
-  let resultados = [];
-
-  // Iterar sobre todos os arquivos JSON carregados
-  Object.entries(jsonRoutes).forEach(([routeName, jsonData]) => {
-    // Verificar se algum valor do JSON contém o termo de busca
-    const matches = JSON.stringify(jsonData).toLowerCase().includes(query.toLowerCase());
-    
-    if (matches) {
-      // Adicionar ao array de resultados, incluindo o nome da rota
-      resultados.push({ route: routeName, data: jsonData });
-    }
-  });
-
-  // Retornar os resultados da pesquisa
-  if (resultados.length > 0) {
-    res.json(resultados);
-  } else {
-    res.status(404).json({ mensagem: 'Nenhum resultado encontrado.' });
-  }
-});
 
 // Middleware para tratar erros
 app.use((err, req, res, next) => {
+  
   if (err.name === 'UnauthorizedError') {
     return res.status(401).json({ erro: 'Token inválido ou não fornecido.' });
   }
