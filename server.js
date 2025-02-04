@@ -3,24 +3,27 @@ const jwt = require('jsonwebtoken');
 const { expressjwt: expressJwt } = require('express-jwt');
 const fs = require('fs');
 const path = require('path');
+
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Chave secreta para gerar e verificar os tokens
+// Chave secreta para JWT
 const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
 
-// Middleware para interpretar o corpo das requisições como JSON
+// Middleware para interpretar JSON no corpo das requisições
 app.use(express.json());
 
-// Middleware para verificar o token
+// Middleware para verificar token (exceto algumas rotas)
 const authMiddleware = expressJwt({
   secret: SECRET_KEY,
   algorithms: ['HS256']
 }).unless({
-  path: ['/login', '/routes/soma-total', '/search'] // Login, soma e search não exigem autenticação
+  path: ['/login', '/search'] // Rotas que não exigem autenticação
 });
 
-// Rota para fazer login e gerar o token
+app.use(authMiddleware);
+
+// Rota de login para gerar token
 app.post('/login', (req, res) => {
   const { usuario, senha } = req.body;
 
@@ -32,67 +35,61 @@ app.post('/login', (req, res) => {
   return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Diretório onde os arquivos JSON estão armazenados
-const routesPath = path.join(__dirname, 'routes');
+// Função para carregar JSONs dinamicamente de uma pasta e criar rotas
+const loadJsonRoutes = (folderPath, baseRoute, jsonStorage) => {
+  if (!fs.existsSync(folderPath)) return;
 
-// Variável para armazenar os arquivos JSON carregados
-const jsonRoutes = {};
+  fs.readdirSync(folderPath).forEach(file => {
+    if (file.endsWith('.json')) {
+      const routeName = `/${baseRoute}/${file.replace('.json', '')}`;
+      const filePath = path.join(folderPath, file);
+      delete require.cache[require.resolve(filePath)]; // Limpar cache do require
+      const fileContent = require(filePath);
 
-// Carregamento dinâmico dos arquivos JSON e criação das rotas
-fs.readdirSync(routesPath).forEach(file => {
-  if (file.endsWith('.json')) {
-    const routeName = `/routes/${file.replace('.json', '')}`;
-    const filePath = path.join(routesPath, file);
-    const fileContent = require(filePath);
+      jsonStorage[routeName] = fileContent;
 
-    jsonRoutes[routeName] = fileContent;
-
-    // Criar rota para cada arquivo JSON
-    app.get(routeName, (req, res) => res.json(fileContent));
-    console.log(`Rota criada: GET ${routeName}`);
-  }
-});
-
-// Rota para calcular a soma de todos os itens dentro da chave "servidores"
-app.get('/routes/soma-total', (req, res) => {
-  let somaTotal = 0;
-
-  // Iterar sobre todos os arquivos JSON carregados
-  Object.values(jsonRoutes).forEach(jsonData => {
-    if (jsonData.servidores) {
-      // Para cada arquivo JSON, contar o número de servidores
-      somaTotal += Object.keys(jsonData.servidores).length;
+      app.get(routeName, (req, res) => res.json(fileContent));
+      console.log(`Rota criada: GET ${routeName}`);
     }
   });
+};
 
-  // Retornar o total de servidores contados
-  res.json({
-    somaTotal
-  });
-});
+// Diretórios de JSONs
+const routesPath = path.join(__dirname, 'routes');
+const servidoresPath = path.join(__dirname, 'servidores');
 
-// Rota de pesquisa
+// Armazena os JSONs carregados
+const jsonRoutes = {};
+const jsonServidores = {};
+
+// Carregar JSONs das pastas 'routes' e 'servidores'
+loadJsonRoutes(routesPath, 'routes', jsonRoutes);
+loadJsonRoutes(servidoresPath, 'servidores', jsonServidores);
+
+// Rota de pesquisa nos arquivos JSON
 app.get('/search', (req, res) => {
-  const { query } = req.query;  // Pega o termo de busca via query string
-  
+  const { query } = req.query;
+
   if (!query) {
     return res.status(400).json({ erro: 'Você deve fornecer um termo de busca.' });
   }
 
   let resultados = [];
 
-  // Iterar sobre todos os arquivos JSON carregados
-  Object.entries(jsonRoutes).forEach(([routeName, jsonData]) => {
-    // Verificar se algum valor do JSON contém o termo de busca
-    const matches = JSON.stringify(jsonData).toLowerCase().includes(query.toLowerCase());
-    
+  // Função para buscar em qualquer JSON carregado
+  const searchInJson = (jsonData, routeName) => {
+    const searchData = Array.isArray(jsonData) ? jsonData : [jsonData];
+    const matches = searchData.some(item => JSON.stringify(item).toLowerCase().includes(query.toLowerCase()));
+
     if (matches) {
-      // Adicionar ao array de resultados, incluindo o nome da rota
       resultados.push({ route: routeName, data: jsonData });
     }
-  });
+  };
 
-  // Retornar os resultados da pesquisa
+  // Procurar nos JSONs carregados
+  Object.entries(jsonRoutes).forEach(([routeName, jsonData]) => searchInJson(jsonData, routeName));
+  Object.entries(jsonServidores).forEach(([routeName, jsonData]) => searchInJson(jsonData, routeName));
+
   if (resultados.length > 0) {
     res.json(resultados);
   } else {
@@ -100,7 +97,7 @@ app.get('/search', (req, res) => {
   }
 });
 
-// Middleware para tratar erros
+// Middleware para tratar erros de autenticação
 app.use((err, req, res, next) => {
   if (err.name === 'UnauthorizedError') {
     return res.status(401).json({ erro: 'Token inválido ou não fornecido.' });
@@ -108,5 +105,5 @@ app.use((err, req, res, next) => {
   next(err);
 });
 
-// Inicia o servidor
+// Iniciar o servidor
 app.listen(port, () => console.log(`Servidor rodando em http://localhost:${port}`));
