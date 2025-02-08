@@ -35,40 +35,21 @@ app.post('/login', (req, res) => {
   return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Função para carregar JSONs dinamicamente com formatos diferentes
-const loadJsonRoutesWithCustomFormat = (folderPath, baseRoute, jsonStorage, format) => {
+// Função para carregar JSONs dinamicamente de uma pasta e criar rotas
+const loadJsonRoutes = (folderPath, baseRoute, jsonStorage) => {
   if (!fs.existsSync(folderPath)) return;
 
   fs.readdirSync(folderPath).forEach(file => {
     if (file.endsWith('.json')) {
+      const routeName = `/${baseRoute}/${file.replace('.json', '')}`;
       const filePath = path.join(folderPath, file);
       delete require.cache[require.resolve(filePath)]; // Limpar cache do require
-      let fileContent = require(filePath);
+      const fileContent = require(filePath);
 
-      // Configuração para o formato de "servidores"
-      if (format === 'servidores') {
-        if (Array.isArray(fileContent)) {
-          const servidoresObj = {};
-          fileContent.forEach(item => {
-            if (item.id) {
-              servidoresObj[item.id] = item; // Organizar por id
-            }
-          });
-          fileContent = { servidores: servidoresObj };
-        } else if (typeof fileContent === 'object') {
-          fileContent = { servidores: fileContent };
-        }
-      }
+      jsonStorage[routeName] = fileContent;
 
-      // Configuração para o formato padrão (array)
-      if (format === 'array' && !Array.isArray(fileContent)) {
-        fileContent = Array.isArray(fileContent) ? fileContent : [fileContent];
-      }
-
-      jsonStorage[`/${baseRoute}/${file.replace('.json', '')}`] = fileContent;
-
-      app.get(`/${baseRoute}/${file.replace('.json', '')}`, (req, res) => res.json(fileContent));
-      console.log(`Rota criada: GET /${baseRoute}/${file.replace('.json', '')}`);
+      app.get(routeName, (req, res) => res.json(fileContent));
+      console.log(`Rota criada: GET ${routeName}`);
     }
   });
 };
@@ -81,9 +62,9 @@ const servidoresPath = path.join(__dirname, 'servidores');
 const jsonRoutes = {};
 const jsonServidores = {};
 
-// Carregar JSONs garantindo os formatos corretos
-loadJsonRoutesWithCustomFormat(routesPath, 'routes', jsonRoutes, 'array'); // Sempre como array
-loadJsonRoutesWithCustomFormat(servidoresPath, 'servidores', jsonServidores, 'servidores'); // Formato especial
+// Carregar JSONs das pastas 'routes' e 'servidores'
+loadJsonRoutes(routesPath, 'routes', jsonRoutes);
+loadJsonRoutes(servidoresPath, 'servidores', jsonServidores);
 
 // Rota de pesquisa nos arquivos JSON
 app.get('/search', (req, res) => {
