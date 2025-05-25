@@ -7,23 +7,22 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Chave secreta para gerar e verificar tokens
 const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
+const BASE_URL = 'https://clubedosmods.vercel.app'; // URL base do seu servidor
 
-// Middleware para interpretar JSON
 app.use(express.json());
 
-// Autenticação JWT para todas as rotas, exceto login
+// Middleware JWT geral, exceto login
 const authMiddleware = expressJwt({
   secret: SECRET_KEY,
-  algorithms: ['HS256']
+  algorithms: ['HS256'],
 }).unless({
   path: ['/login']
 });
 
 app.use(authMiddleware);
 
-// Rota de login para gerar o token
+// Login para gerar token principal
 app.post('/login', (req, res) => {
   const { usuario, senha } = req.body;
 
@@ -35,7 +34,7 @@ app.post('/login', (req, res) => {
   return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Rota protegida para acessar arquivos .m3u8
+// Rota que retorna URL + token para acesso ao arquivo
 app.get('/api/canais/:arquivo', (req, res) => {
   const { arquivo } = req.params;
 
@@ -49,11 +48,49 @@ app.get('/api/canais/:arquivo', (req, res) => {
     return res.status(404).json({ erro: 'Arquivo não encontrado.' });
   }
 
-  res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
-  res.sendFile(filePath);
+  // Criar token temporário para acessar esse arquivo, válido por exemplo 15 minutos
+  const accessToken = jwt.sign({ arquivo }, SECRET_KEY, { expiresIn: '15m' });
+
+  // URL para acessar o arquivo protegido, passando token como query string
+  const urlComToken = `${BASE_URL}/api/canais/download/${arquivo}?token=${accessToken}`;
+
+  res.json({
+    url: urlComToken,
+    expires_in: 15 * 60 // segundos
+  });
 });
 
-// Middleware para lidar com erros de autenticação
+// Rota que realmente serve o arquivo .m3u8, protegida por token na query
+app.get('/api/canais/download/:arquivo', (req, res) => {
+  const { arquivo } = req.params;
+  const token = req.query.token;
+
+  if (!token) {
+    return res.status(401).json({ erro: 'Token de acesso é obrigatório.' });
+  }
+
+  // Verificar o token temporário
+  jwt.verify(token, SECRET_KEY, (err, decoded) => {
+    if (err) {
+      return res.status(401).json({ erro: 'Token inválido ou expirado.' });
+    }
+
+    if (decoded.arquivo !== arquivo) {
+      return res.status(403).json({ erro: 'Token não corresponde ao arquivo solicitado.' });
+    }
+
+    const filePath = path.join(__dirname, 'canais', arquivo);
+
+    if (!fs.existsSync(filePath)) {
+      return res.status(404).json({ erro: 'Arquivo não encontrado.' });
+    }
+
+    res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
+    res.sendFile(filePath);
+  });
+});
+
+// Middleware de erro para token geral
 app.use((err, req, res, next) => {
   if (err.name === 'UnauthorizedError') {
     return res.status(401).json({ erro: 'Token inválido ou ausente.' });
@@ -61,7 +98,6 @@ app.use((err, req, res, next) => {
   next(err);
 });
 
-// Inicia o servidor
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
