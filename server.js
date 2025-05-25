@@ -4,7 +4,7 @@ const moment = require('moment-timezone');
 const app = express();
 const port = process.env.PORT || 3001;
 
-<<<<<<< HEAD
+HEAD
 // Chave secreta para gerar e verificar tokens
 const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
 
