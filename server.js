@@ -8,79 +8,63 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
-const BASE_URL = 'https://clubedosmods.vercel.app'; // URL base do seu servidor
+const BASE_URL = 'https://clubedosmods.vercel.app'; // Mude para sua URL real
 
 app.use(express.json());
 
-// Middleware JWT geral, exceto login
-const authMiddleware = expressJwt({
-  secret: SECRET_KEY,
-  algorithms: ['HS256'],
-}).unless({
-  path: ['/login']
-});
-
-app.use(authMiddleware);
+// Middleware JWT para proteger rotas, exceto /login
+app.use(expressJwt({ secret: SECRET_KEY, algorithms: ['HS256'] }).unless({ path: ['/login'] }));
 
 // Login para gerar token principal
 app.post('/login', (req, res) => {
   const { usuario, senha } = req.body;
-
   if (usuario === 'vitor' && senha === 'spazio3132') {
     const token = jwt.sign({ usuario }, SECRET_KEY, { expiresIn: '1h' });
     return res.json({ token });
   }
-
   return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Rota que retorna URL + token para acesso ao arquivo
+// Rota que responde a URL protegida para reprodução
 app.get('/api/canais/:arquivo', (req, res) => {
   const { arquivo } = req.params;
 
-  if (!arquivo.endsWith('.m3u8')) {
+  if (!arquivo.toLowerCase().endsWith('.m3u8')) {
     return res.status(400).json({ erro: 'Formato de arquivo inválido.' });
   }
 
   const filePath = path.join(__dirname, 'canais', arquivo);
-
   if (!fs.existsSync(filePath)) {
     return res.status(404).json({ erro: 'Arquivo não encontrado.' });
   }
 
-  // Criar token temporário para acessar esse arquivo, válido por exemplo 15 minutos
+  // Gera token temporário para o arquivo, válido 15 minutos
   const accessToken = jwt.sign({ arquivo }, SECRET_KEY, { expiresIn: '15m' });
 
-  // URL para acessar o arquivo protegido, passando token como query string
-  const urlComToken = `${BASE_URL}/api/canais/download/${arquivo}?token=${accessToken}`;
+  // URL para reprodução, que o player deve usar
+  const urlParaReproducao = `${BASE_URL}/api/canais/download/${encodeURIComponent(arquivo)}?token=${accessToken}`;
 
   res.json({
-    url: urlComToken,
+    url: urlParaReproducao,
     expires_in: 15 * 60 // segundos
   });
 });
 
-// Rota que realmente serve o arquivo .m3u8, protegida por token na query
+// Rota que serve o arquivo .m3u8 após validar token temporário na query
 app.get('/api/canais/download/:arquivo', (req, res) => {
   const { arquivo } = req.params;
-  const token = req.query.token;
+  const { token } = req.query;
 
   if (!token) {
-    return res.status(401).json({ erro: 'Token de acesso é obrigatório.' });
+    return res.status(401).json({ erro: 'Token de acesso obrigatório.' });
   }
 
-  // Verificar o token temporário
   jwt.verify(token, SECRET_KEY, (err, decoded) => {
-    if (err) {
-      return res.status(401).json({ erro: 'Token inválido ou expirado.' });
-    }
-
-    if (decoded.arquivo !== arquivo) {
-      return res.status(403).json({ erro: 'Token não corresponde ao arquivo solicitado.' });
+    if (err || decoded.arquivo !== arquivo) {
+      return res.status(401).json({ erro: 'Token inválido ou não corresponde ao arquivo.' });
     }
 
     const filePath = path.join(__dirname, 'canais', arquivo);
-
     if (!fs.existsSync(filePath)) {
       return res.status(404).json({ erro: 'Arquivo não encontrado.' });
     }
@@ -90,7 +74,7 @@ app.get('/api/canais/download/:arquivo', (req, res) => {
   });
 });
 
-// Middleware de erro para token geral
+// Tratamento de erros de autenticação JWT principal
 app.use((err, req, res, next) => {
   if (err.name === 'UnauthorizedError') {
     return res.status(401).json({ erro: 'Token inválido ou ausente.' });
