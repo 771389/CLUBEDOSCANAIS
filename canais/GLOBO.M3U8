@@ -1,0 +1,6 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="NOME DO CANAL" 
+tvg-name="GLOBO"
+ tvg-logo="http://beststorage4you.com/logoscanais/GLOBO.png"
+ group-title="Canais | NOME CATEGORIA",NOME DO CANAL
+http://89.187.190.183:14493
