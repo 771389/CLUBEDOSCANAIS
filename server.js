@@ -8,12 +8,17 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
-const BASE_URL = 'https://clubedosmods.vercel.app'; // Mude para sua URL real
+const BASE_URL = 'https://clubedosmods.vercel.app'; // sua URL real
 
 app.use(express.json());
 
-// Middleware JWT para proteger rotas, exceto /login
-app.use(expressJwt({ secret: SECRET_KEY, algorithms: ['HS256'] }).unless({ path: ['/login'] }));
+// Middleware JWT para proteger todas rotas exceto /login e /api/canais/download/*
+app.use(expressJwt({ secret: SECRET_KEY, algorithms: ['HS256'] }).unless({
+  path: [
+    '/login',
+    /^\/api\/canais\/download\/.*/ // RegEx para permitir acesso público à rota download
+  ]
+}));
 
 // Login para gerar token principal
 app.post('/login', (req, res) => {
@@ -25,7 +30,7 @@ app.post('/login', (req, res) => {
   return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Rota que responde a URL protegida para reprodução
+// Rota que retorna URL com token para reprodução - protegida por token principal
 app.get('/api/canais/:arquivo', (req, res) => {
   const { arquivo } = req.params;
 
@@ -41,7 +46,6 @@ app.get('/api/canais/:arquivo', (req, res) => {
   // Gera token temporário para o arquivo, válido 15 minutos
   const accessToken = jwt.sign({ arquivo }, SECRET_KEY, { expiresIn: '15m' });
 
-  // URL para reprodução, que o player deve usar
   const urlParaReproducao = `${BASE_URL}/api/canais/download/${encodeURIComponent(arquivo)}?token=${accessToken}`;
 
   res.json({
@@ -50,7 +54,7 @@ app.get('/api/canais/:arquivo', (req, res) => {
   });
 });
 
-// Rota que serve o arquivo .m3u8 após validar token temporário na query
+// Rota pública que entrega o arquivo .m3u8 validando token via query param
 app.get('/api/canais/download/:arquivo', (req, res) => {
   const { arquivo } = req.params;
   const { token } = req.query;
@@ -74,7 +78,7 @@ app.get('/api/canais/download/:arquivo', (req, res) => {
   });
 });
 
-// Tratamento de erros de autenticação JWT principal
+// Middleware para erros de autenticação do express-jwt (token principal)
 app.use((err, req, res, next) => {
   if (err.name === 'UnauthorizedError') {
     return res.status(401).json({ erro: 'Token inválido ou ausente.' });
