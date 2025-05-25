@@ -1,12 +1,10 @@
 const express = require('express');
-const jwt = require('jsonwebtoken');
-const { expressjwt: expressJwt } = require('express-jwt');
-const fs = require('fs');
-const path = require('path');
+const moment = require('moment-timezone');
 
 const app = express();
 const port = process.env.PORT || 3001;
 
+<<<<<<< HEAD
 // Chave secreta para gerar e verificar tokens
 const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
 
