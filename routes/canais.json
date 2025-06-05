@@ -1,0 +1,184 @@
+{
+  "canais": {
+    "-ORxRGeGjX_AJk93vKdQ": {
+      "icon": "http://beststorage4you.com:80/logoscanais/AXN.png",
+      "id": "674.0",
+      "name": "AXN HD",
+      "url": "http://89.187.190.183:14748"
+    },
+    "-ORxRNHPsEhJROaF4UP6": {
+      "icon": "http://beststorage4you.com:80/logoscanais/AXN.png",
+      "id": "675.0",
+      "name": "AXN HD²",
+      "url": "http://89.187.190.167:14748"
+    },
+    "-ORxRp3HsI6SWE47Lmb4": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "492.0",
+      "name": "Premiere Clubes HD",
+      "url": "http://95.173.218.226:14061"
+    },
+    "-ORxRtrLlnQYjNcBdLoP": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "497.0",
+      "name": "Premiere 2 HD",
+      "url": "http://87.249.137.97:14839"
+    },
+    "-ORxRyh9a2QZNsOE3OWe": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "504.0",
+      "name": "Premiere 3 FHD",
+      "url": "http://87.249.137.97:14819"
+    },
+    "-ORxS29mlPygmsZ3QYBX": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "507.0",
+      "name": "Premiere 4 HD",
+      "url": "http://87.249.137.97:14780"
+    },
+    "-ORxS81D9fX9aU8RSM3c": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "21268.0",
+      "name": "Premiere 5 UHD",
+      "url": "http://185.246.208.74:14870"
+    },
+    "-ORxSCO7bV4CVOHVcpDs": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "519.0",
+      "name": "Premiere 6 FHD",
+      "url": "http://87.249.137.97:14769"
+    },
+    "-ORxSGSqQCzkBYXccLHl": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "522.0",
+      "name": "Premiere 7 HD",
+      "url": "http://87.249.137.97:14760"
+    },
+    "-ORxSKDk4ezuikTk7mlU": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "380749.0",
+      "name": "Premiere 8 HD",
+      "url": "http://87.249.137.97:14859"
+    },
+    "-ORxSYfDUY_DsaDr2-VA": {
+      "icon": "http://beststorage4you.com:80/logoscanais/RECORDTV.png",
+      "id": "244075.0",
+      "name": "RecordTV SP HD",
+      "url": "http://185.246.208.74:14660"
+    },
+    "-ORxShqeUozEbIsbomT5": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244167.0",
+      "name": "SBT SP HD",
+      "url": "http://89.187.190.183:14365"
+    },
+    "-ORxSlDDRStZawU5AL7m": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244167.0",
+      "name": "SBT SP HD",
+      "url": "http://143.244.58.89:14337"
+    },
+    "-ORxSo2L1DktKaby0CwS": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244167.0",
+      "name": "SBT SP HD",
+      "url": "http://89.187.190.183:14372"
+    },
+    "-ORxSr95COwMQjbt9L5Y": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244167.0",
+      "name": "SBT SP HD",
+      "url": "http://185.246.208.74:14367"
+    },
+    "-ORxSu8-MjumFDyslqUB": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244167.0",
+      "name": "SBT SP HD",
+      "url": "http://89.187.190.167:14372"
+    },
+    "-ORxSx4XRlrRPVmhOtSm": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244167.0",
+      "name": "SBT SP HD",
+      "url": "http://89.187.190.167:14365"
+    },
+    "-ORxT7wwR5XkcyKh7xKP": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SPORTV.png",
+      "id": "21275.0",
+      "name": "SporTV UHD",
+      "url": "http://87.249.137.97:14680"
+    },
+    "-ORxTCGuU-X-FlpwPk9u": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SPORTV.png",
+      "id": "554.0",
+      "name": "SporTV 2 FHD",
+      "url": "http://185.152.67.187:14292"
+    },
+    "-ORxTL-9TaFvfpp6_Jr0": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SPORTV.png",
+      "id": "559.0",
+      "name": "SporTV 3 FHD",
+      "url": "http://87.249.137.97:14662"
+    },
+    "-ORxTWn7JgJlHbBs07aG": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "618.0",
+      "name": "Telecine Cult HD",
+      "url": "http://87.249.137.97:14000"
+    },
+    "-ORxTb5ouN4BYVOtKXgT": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TLC.png",
+      "id": "726.0",
+      "name": "TLC HD",
+      "url": "http://79.127.238.228:14433"
+    },
+    "-ORxTh2dUTIOXiEOV4ET": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TNTSERIES.png",
+      "id": "736.0",
+      "name": "TNT Series HD",
+      "url": "http://87.249.137.97:14020"
+    },
+    "-ORxToMiYsUGbeZOtGGw": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TNT.png",
+      "id": "732.0",
+      "name": "TNT HD²",
+      "url": "http://95.173.218.226:14056"
+    },
+    "-ORxTthwcS-b5kQWugkF": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TNT.png",
+      "id": "733.0",
+      "name": "TNT FHD",
+      "url": "http://87.249.137.97:14860"
+    },
+    "-ORxU-DeuutlALfQLeqX": {
+      "icon": "http://beststorage4you.com:80/logoscanais/UNIVERSALTV.png",
+      "id": "742.0",
+      "name": "Universal TV HD",
+      "url": "http://87.249.137.97:14720"
+    },
+    "-ORxU4dWP4ZP52ysF_8I": {
+      "icon": "http://beststorage4you.com:80/logoscanais/EUA.png",
+      "id": "292684.0",
+      "name": "USA | NHL TV 10",
+      "url": "http://87.249.137.97:14740"
+    },
+    "-ORxUN0tYy3CDcgdjuZ8": {
+      "icon": "http://beststorage4you.com:80/logoscanais/VIVA.png",
+      "id": "2537.0",
+      "name": "Viva FHD",
+      "url": "http://89.187.190.183:14781"
+    },
+    "-ORxUQkhK2KvK2_QpuuV": {
+      "icon": "http://beststorage4you.com:80/logoscanais/VIVA.png",
+      "id": "2536.0",
+      "name": "Viva HD",
+      "url": "http://89.187.190.167:14781"
+    },
+    "-ORxUWBpt3xan6eoIRuN": {
+      "icon": "http://beststorage4you.com:80/logoscanais/VIVA.png",
+      "id": "2535.0",
+      "name": "Viva SD",
+      "url": "http://143.244.58.89:14782"
+    }
+  }
+}

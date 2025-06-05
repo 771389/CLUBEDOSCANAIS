@@ -3,27 +3,26 @@ const jwt = require('jsonwebtoken');
 const { expressjwt: expressJwt } = require('express-jwt');
 const fs = require('fs');
 const path = require('path');
-
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Chave secreta para JWT
+// Chave secreta para gerar e verificar os tokens
 const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
 
-// Middleware para interpretar JSON
+// Middleware para interpretar o corpo das requisições como JSON
 app.use(express.json());
 
-// Autenticação JWT para todas as rotas, exceto login
+// Middleware para verificar o token
 const authMiddleware = expressJwt({
   secret: SECRET_KEY,
   algorithms: ['HS256']
 }).unless({
-  path: ['/login', '/api/canais/download/:arquivo'] // Rota de download não exige token
+  path: ['/login'] // Apenas login não exige autenticação
 });
 
 app.use(authMiddleware);
 
-// Rota de login para gerar o token principal
+// Rota para fazer login e gerar o token
 app.post('/login', (req, res) => {
   const { usuario, senha } = req.body;
 
@@ -35,50 +34,34 @@ app.post('/login', (req, res) => {
   return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Rota para fornecer URL com token temporário (opcional, pode manter ou remover)
-app.get('/api/canais/:arquivo', (req, res) => {
-  const { arquivo } = req.params;
+// Diretório onde os arquivos JSON estão armazenados
+const routesPath = path.join(__dirname, 'routes');
 
-  if (!arquivo.endsWith('.m3u8')) {
-    return res.status(400).json({ erro: 'Formato de arquivo inválido.' });
+// Variável para armazenar os arquivos JSON carregados
+const jsonRoutes = {};
+
+// Carregamento dinâmico dos arquivos JSON e criação das rotas
+fs.readdirSync(routesPath).forEach(file => {
+  if (file.endsWith('.json')) {
+    const routeName = `/routes/${file.replace('.json', '')}`;
+    const filePath = path.join(routesPath, file);
+    const fileContent = require(filePath);
+
+    jsonRoutes[routeName] = fileContent;
+
+    // Criar rota para cada arquivo JSON
+    app.get(routeName, (req, res) => res.json(fileContent));
+    console.log(`Rota criada: GET ${routeName}`);
   }
-
-  const urlBase = 'https://clubedosmods.vercel.app/api/canais/download';
-  const url = `${urlBase}/${arquivo}`; // Sem token
-
-  res.json({
-    url,
-    expires_in: null // sem token, sem expiração
-  });
 });
 
-// Rota de download do arquivo .m3u8 - **SEM validação de token**
-app.get('/api/canais/download/:arquivo', (req, res) => {
-  const { arquivo } = req.params;
-
-  if (!arquivo.endsWith('.m3u8')) {
-    return res.status(400).json({ erro: 'Formato de arquivo inválido.' });
-  }
-
-  const filePath = path.join(__dirname, 'canais', arquivo);
-
-  if (!fs.existsSync(filePath)) {
-    return res.status(404).json({ erro: 'Arquivo não encontrado.' });
-  }
-
-  res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
-  res.sendFile(filePath);
-});
-
-// Middleware para lidar com erros de autenticação
+// Middleware para tratar erros
 app.use((err, req, res, next) => {
   if (err.name === 'UnauthorizedError') {
-    return res.status(401).json({ erro: 'Token inválido ou ausente.' });
+    return res.status(401).json({ erro: 'Token inválido ou não fornecido.' });
   }
   next(err);
 });
 
 // Inicia o servidor
-app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
-});
+app.listen(port, () => console.log(`Servidor rodando em http://localhost:${port}`));
