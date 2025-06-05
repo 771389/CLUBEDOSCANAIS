@@ -179,6 +179,61 @@
       "id": "2535.0",
       "name": "Viva SD",
       "url": "http://143.244.58.89:14782"
+    },
+    "-OS1SQE6ORYqk4FXTSq2": {
+      "icon": "http://beststorage4you.com:80/logoscanais/GLOBO.png",
+      "id": "284587.0",
+      "name": "GLOBO SP UHD",
+      "url": "http://15.235.9.200:14904"
+    },
+    "-OS1ShNmXiVQAuD5ZQTW": {
+      "icon": "http://beststorage4you.com:80/logoscanais/GLOBO.png",
+      "id": "2375.0",
+      "name": "Globo RJ HD²",
+      "url": "http://185.236.183.118:14056"
+    },
+    "-OS1SmAHPTNx9E_1amVH": {
+      "icon": "http://beststorage4you.com:80/logoscanais/GLOBO.png",
+      "id": "2376.0",
+      "name": "Globo RJ FHD",
+      "url": "http://185.236.183.118:14055"
+    },
+    "-OS1T2iB2Xp-LvttrB2t": {
+      "icon": "http://beststorage4you.com:80/logoscanais/CINEMAX.png",
+      "id": "680.0",
+      "name": "Cinemax HD",
+      "url": "http://185.236.183.117:14114"
+    },
+    "-OS1TBS1l8wW0Zinp5tR": {
+      "icon": "http://beststorage4you.com:80/logoscanais/DESENHOS-24-HORAS.png",
+      "id": "271607.0",
+      "name": "[24H] Dragon Ball Z 1",
+      "url": "http://208.115.234.42:14268"
+    },
+    "-OS1TLDPmywyBFDqbW1m": {
+      "icon": "http://beststorage4you.com:80/logoscanais/HBO.png",
+      "id": "18761.0",
+      "name": "HBO FAMILY HD²",
+      "url": "http://185.236.183.118:14404"
+    },
+    "-OS1TRmwFiYZpG0veL5Y": {
+      "icon": "http://beststorage4you.com:80/logoscanais/HBO.png",
+      "id": "284603.0",
+      "name": "HBO 4K ",
+      "url": "http://15.235.50.112:14192"
+    },
+    "-OS1TW8V0v9hcaeROD3I": {
+      "icon": "http://beststorage4you.com:80/logoscanais/HBO.png",
+      "id": "284603.0",
+      "name": "HBO 4K ",
+      "url": "http://185.236.183.117:14047"
+    },
+    "-OS1U35NmeaKyKkvV8g0": {
+      "icon": "http://beststorage4you.com:80/logoscanais/BAND.png",
+      "id": "255467.0",
+      "name": "Band SP HD",
+      "url": "http://185.236.183.117:14029"
     }
   }
+
 }
