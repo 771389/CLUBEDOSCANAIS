@@ -1,1078 +1,179 @@
 {
   "canais": {
-    "-CustomKey_00001": {
-      "icon": "https://cdn.mitvstatic.com/channels/globo_m.jpg",
-      "id": "1.0",
-      "name": "TV GLOGO SÃO PAULO FHD",
-      "url": "http://15.235.9.200:14904"
-    },
-    "-CustomKey_00002": {
-      "icon": "https://cdn.mitvstatic.com/channels/globo_m.jpg",
-      "id": "2.0",
-      "name": "TV Globo Rio HD",
-      "url": "http://185.236.183.118:14056"
-    },
-    "-CustomKey_00003": {
-      "icon": "https://cdn.mitvstatic.com/channels/globo_m.jpg",
-      "id": "3.0",
-      "name": "TV Globo Rio FHD",
-      "url": "http://185.236.183.118:14055"
-    },
-    "-CustomKey_00004": {
-      "icon": "https://i.postimg.cc/K8hFyxjn/novo-logo-identidade-visual-pacote-grafico-globonews-2017.jpg",
-      "id": "4.0",
-      "name": "Globo News HD",
-      "url": "http://79.127.238.228:14093"
-    },
-    "-CustomKey_00005": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU1xDYo08gLHPMKXLkVYU3IQtZPVd8kECkdw&s",
-      "id": "5.0",
-      "name": "TLC HD",
-      "url": "http://185.236.183.117:14699"
-    },
-    "-CustomKey_00006": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRATFUeUjU1t8T7c3mCgDduHlywI9889MuuEQ&s",
-      "id": "6.0",
-      "name": "CINEMAX HD",
-      "url": "http://185.236.183.117:14114"
-    },
-    "-CustomKey_00007": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKmPkKz7qe4UF0X5eHIFM1Qwe-AY2bRaq6g&s",
-      "id": "7.0",
-      "name": "Dragon Ball Z",
-      "url": "http://208.115.234.42:14268"
-    },
-    "-CustomKey_00008": {
-      "icon": "https://cdn.domestika.org/c_fill,dpr_1.0,f_auto,h_1200,pg_1,t_base_params,w_1200/v1285022351/project-covers/000/013/934/13934-original-19799-original-TN-FAMILY.png?1285022351",
-      "id": "8.0",
-      "name": "HBO FAMILY HD",
-      "url": "http://185.236.183.118:14404"
-    },
-    "-CustomKey_00009": {
-      "icon": "https://cdn.domestika.org/c_fill,dpr_1.0,f_auto,h_1200,pg_1,t_base_params,w_1200/v1285022351/project-covers/000/013/934/13934-original-19799-original-TN-FAMILY.png?1285022351",
-      "id": "9.0",
-      "name": "HBO FAMILY 4K",
-      "url": "http://15.235.50.112:14192"
-    },
-    "-CustomKey_00010": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmfb6FTtUZ7Gr8ed0567ezgKaKDekuX3gQkQ&s",
-      "id": "10.0",
-      "name": "HBO 2 4K",
-      "url": "http://15.235.50.112:14189"
-    },
-    "-CustomKey_00011": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1CktUgkZOQx-zZE9p7Z1fluIb8bISfdgLZA&s",
-      "id": "11.0",
+    "-OSBEE4104w_XVwI0uJP": {
+      "icon": "http://beststorage4you.com:80/logoscanais/BANDSPORTS.png",
+      "id": "233.0",
       "name": "Band Sports HD",
-      "url": "http://185.236.183.117:14047"
-    },
-    "-CustomKey_00012": {
-      "icon": "https://popnow.com.br/wp-content/uploads/2021/02/original_1614011637_STAR-CHANNEL-LOGO.jpg",
-      "id": "12.0",
-      "name": "STAR CHANNEL",
-      "url": "http://185.246.208.74:14370"
-    },
-    "-CustomKey_00013": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "13.0",
-      "name": "Espn 4K",
-      "url": "http://185.236.183.118:14180"
-    },
-    "-CustomKey_00014": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "14.0",
-      "name": "Espn HD",
-      "url": "http://185.236.183.118:14180"
-    },
-    "-CustomKey_00015": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "15.0",
-      "name": "Espn 2 HD",
-      "url": "http://46.151.196.223:14438"
-    },
-    "-CustomKey_00016": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "16.0",
-      "name": "Espn 3 4k",
-      "url": "http://185.246.208.74:14093"
-    },
-    "-CustomKey_00017": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "17.0",
-      "name": "Espn 3 HD",
-      "url": "http://185.246.208.74:14093"
-    },
-    "-CustomKey_00018": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "18.0",
-      "name": "ESPN 4 HD",
-      "url": "http://185.236.183.118:14191"
-    },
-    "-CustomKey_00019": {
-      "icon": "https://i.postimg.cc/prGVZqnX/Sportv-nova-logo.webp",
-      "id": "19.0",
-      "name": "Sportv HD",
-      "url": "http://185.236.183.117:14645"
-    },
-    "-CustomKey_00020": {
-      "icon": "https://i.postimg.cc/prGVZqnX/Sportv-nova-logo.webp",
-      "id": "20.0",
-      "name": "Sportv HD",
-      "url": "http://185.236.183.117:14643"
-    },
-    "-CustomKey_00021": {
-      "icon": "https://i.postimg.cc/prGVZqnX/Sportv-nova-logo.webp",
-      "id": "21.0",
-      "name": "Sportv 2 HD",
-      "url": "http://185.236.183.117:14646"
-    },
-    "-CustomKey_00022": {
-      "icon": "https://i.postimg.cc/prGVZqnX/Sportv-nova-logo.webp",
-      "id": "22.0",
-      "name": "Sportv 2 FHD",
-      "url": "http://185.236.183.117:14649"
-    },
-    "-CustomKey_00023": {
-      "icon": "https://i.postimg.cc/prGVZqnX/Sportv-nova-logo.webp",
-      "id": "23.0",
-      "name": "Sportv 3 FHD",
-      "url": "http://185.236.183.117:14650"
-    },
-    "-CustomKey_00024": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRATFUeUjU1t8T7c3mCgDduHlywI9889MuuEQ&s",
-      "id": "24.0",
-      "name": "CINEMAX FHD",
-      "url": "http://185.236.183.117:14114"
-    },
-    "-CustomKey_00025": {
-      "icon": "https://i.postimg.cc/HkdGQvLm/fx.png",
-      "id": "25.0",
-      "name": "FX HD",
-      "url": "http://185.236.183.118:14221"
-    },
-    "-CustomKey_00026": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2-0915xHU1M2H3Aw4z7FqylRNC4FNa47UlQ&s",
-      "id": "26.0",
-      "name": "Record News HD",
-      "url": "http://185.236.183.117:14567"
-    },
-    "-CustomKey_00027": {
-      "icon": "http://server.phdtv.club:80/images/fq2rGN3IWwmTpEeqLnz4IXXEzpvc-NlNpOd2NpvCZ3Yj83fJfKFoi9A__kw6wQzs5h7wkWDZs03OEy9gHb3uCw.png",
-      "id": "27.0",
-      "name": "Premiere clube HD",
-      "url": "http://185.236.183.118:14510"
-    },
-    "-CustomKey_00028": {
-      "icon": "https://cdn.mitvstatic.com/channels/br_premiere-clubes-hd_m.png",
-      "id": "28.0",
-      "name": "PREMIERE 1 4K",
-      "url": "http://185.236.183.118:14128"
-    },
-    "-CustomKey_00029": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMChJWjjJWsjXifsjSe8w-phY6bsAYc5sc9g&s",
-      "id": "29.0",
-      "name": "EURONEWS FHD",
-      "url": "http://146.59.71.28:14205"
-    },
-    "-CustomKey_00030": {
-      "icon": "https://cdn.mitvstatic.com/channels/br_premiere-clubes-hd_m.png",
-      "id": "30.0",
-      "name": "Premiere 2 4K",
-      "url": "http://178.162.225.116:2082/Xplus-V3-VMCYCk1nEb/xAG4GfbYVt/149"
-    },
-    "-CustomKey_00031": {
-      "icon": "https://cdn.mitvstatic.com/channels/br_premiere-clubes-hd_m.png",
-      "id": "31.0",
-      "name": "Premiere 3",
-      "url": "http://38.99.238.72:14526"
-    },
-    "-CustomKey_00032": {
-      "icon": "https://cdn.mitvstatic.com/channels/br_premiere-clubes-hd_m.png",
-      "id": "32.0",
-      "name": "Premiere 4 FHD",
-      "url": "http://38.99.238.72:14525"
-    },
-    "-CustomKey_00033": {
-      "icon": "https://cdn.mitvstatic.com/channels/br_premiere-clubes-hd_m.png",
-      "id": "33.0",
-      "name": "Premiere 6 UHD",
-      "url": "http://38.99.238.72:14512"
-    },
-    "-CustomKey_00034": {
-      "icon": "https://todabahia.com.br/wp-content/uploads/2016/02/Band-Logo.jpg",
-      "id": "34.0",
-      "name": "Band HD",
-      "url": "http://185.236.183.117:14029"
-    },
-    "-CustomKey_00035": {
-      "icon": "https://i.postimg.cc/MTbkRgB7/Logotipo-do-SBT-svg.webp",
-      "id": "35.0",
-      "name": "SBT HD",
-      "url": "http://185.236.183.117:14608"
-    },
-    "-CustomKey_00036": {
-      "icon": "https://i.postimg.cc/GhJpmqN8/canal-combate-logo-010-EBF56-D8-seeklogo-com.png",
-      "id": "36.0",
-      "name": "Combate 4K",
-      "url": "http://79.127.238.233:14408"
-    },
-    "-CustomKey_00037": {
-      "icon": "https://i.postimg.cc/GhJpmqN8/canal-combate-logo-010-EBF56-D8-seeklogo-com.png",
-      "id": "37.0",
-      "name": "Combate SD",
-      "url": "http://79.127.238.233:14408"
-    },
-    "-CustomKey_00038": {
-      "icon": "https://todabahia.com.br/wp-content/uploads/2016/02/Band-Logo.jpg",
-      "id": "38.0",
-      "name": "Band HD",
-      "url": "http://185.236.183.117:14030"
-    },
-    "-CustomKey_00039": {
-      "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/24f3a9d9-bac5-4e1d-8525-bf6bc74a9376/dgfldc8-6e337bbb-c500-42c0-9fa0-95a9abc8d9cd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI0ZjNhOWQ5LWJhYzUtNGUxZC04NTI1LWJmNmJjNzRhOTM3NlwvZGdmbGRjOC02ZTMzN2JiYi1jNTAwLTQyYzAtOWZhMC05NWE5YWJjOGQ5Y2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IrnZr310DaS9ZwuKKKjnhJ4_7NvPJvcbH9l4Me_gGzM",
-      "id": "39.0",
-      "name": "RECORD TV HD",
-      "url": "http://79.127.238.233:14275"
-    },
-    "-CustomKey_00040": {
-      "icon": "https://d14vd6r4ppsx57.cloudfront.net/media/brand/CNN_SoulTV_Logo_100x100_Square_bPzQcI4.png",
-      "id": "40.0",
-      "name": "CNN BRASIL HD",
-      "url": "http://185.246.208.74:14810"
-    },
-    "-CustomKey_00041": {
-      "icon": "https://i.postimg.cc/fyHGSQfR/3Cp8HpUQ.jpg",
-      "id": "41.0",
-      "name": "Space HD",
-      "url": "http://185.236.183.117:14639"
-    },
-    "-CustomKey_00042": {
-      "icon": "https://yt3.googleusercontent.com/ytc/AIdro_kSEQ7YXl5S3VwnLFn4C1ph9COMvUfiq8fMdyqafnal3Q=s900-c-k-c0x00ffffff-no-rj",
-      "id": "42.0",
-      "name": "SIC TV PORTUGAL",
-      "url": "https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index_4.m3u8"
-    },
-    "-CustomKey_00043": {
-      "icon": "https://static.wikia.nocookie.net/cartoonnetwork/images/0/04/Cartoon_Network_Logo.jpg/revision/latest?cb=20100607024816",
-      "id": "43.0",
-      "name": "Cartoon Network",
-      "url": "http://185.236.183.118:14092"
-    },
-    "-CustomKey_00044": {
-      "icon": "https://cdn.mitvstatic.com/channels/ar_hbo-plus-panamericano-hd_m.png",
-      "id": "44.0",
-      "name": "HBO+ 4K",
-      "url": "http://185.236.183.118:14408"
-    },
-    "-CustomKey_00045": {
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Warner_Bros._logo_2023.svg/640px-Warner_Bros._logo_2023.svg.png",
-      "id": "45.0",
-      "name": "Warner Channel HD",
-      "url": "http://79.127.238.228:14647"
-    },
-    "-CustomKey_00046": {
-      "icon": "https://i.postimg.cc/fyHGSQfR/3Cp8HpUQ.jpg",
-      "id": "46.0",
-      "name": "Space FHD",
-      "url": "http://185.236.183.117:14639"
-    },
-    "-CustomKey_00047": {
-      "icon": "https://i.postimg.cc/fyHGSQfR/3Cp8HpUQ.jpg",
-      "id": "47.0",
-      "name": "Space FHD",
-      "url": "http://185.236.183.117:14639"
-    },
-    "-CustomKey_00048": {
-      "icon": "https://play-lh.googleusercontent.com/rlxooZ1FOBJ3YlXGuLr2Y02dE0eo6B5-1wy9X7vCPBXM7sVc5YFqSyGgUGGwfHpw3xI=w600-h300-pc0xffffff-pd",
-      "id": "48.0",
-      "name": "Cartoonito 4K",
-      "url": "http://185.236.183.118:14095"
-    },
-    "-CustomKey_00049": {
-      "icon": "https://static.wikia.nocookie.net/logopedia/images/7/75/Prima_Sport_3_new.svg/revision/latest/scale-to-width-down/150?cb=20230126050332",
-      "id": "49.0",
-      "name": "PRIMA-SPORT 3 FHD",
-      "url": "http://146.59.71.28:14713"
-    },
-    "-CustomKey_00050": {
-      "icon": "https://iptvx.one/picons/digisport2.png",
-      "id": "50.0",
-      "name": "DIGI SPORT 2 FHD",
-      "url": "http://146.59.71.28:14705"
-    },
-    "-CustomKey_00051": {
-      "icon": "https://cdn.mitvstatic.com/channels/ar_hbo-plus-panamericano-hd_m.png",
-      "id": "51.0",
-      "name": "HBO+ HD",
-      "url": "http://185.236.183.118:14409"
-    },
-    "-CustomKey_00052": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU1SALmv4jPFSbul6z5OY29qJILm40WnK0nQ&s",
-      "id": "52.0",
-      "name": "ADULT SWIM SD",
-      "url": "http://208.115.234.42:14809"
-    },
-    "-CustomKey_00053": {
-      "icon": "https://m.media-amazon.com/images/M/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg",
-      "id": "53.0",
-      "name": "NARUTO",
-      "url": "http://208.115.202.54:14339"
-    },
-    "-CustomKey_00054": {
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TNT_Serie.svg/163px-TNT_Serie.svg.png",
-      "id": "54.0",
-      "name": "TNT SERIE 4K",
-      "url": "http://185.236.183.118:14707"
-    },
-    "-CustomKey_00055": {
-      "icon": "https://t.ctcdn.com.br/-35CC43O6EaRQ97-IykE4DamCx0=/0x0:1276x718/640x360/smart/i381617.jpeg",
-      "id": "55.0",
-      "name": "HBO HD",
-      "url": "http://143.244.58.89:14460"
-    },
-    "-CustomKey_00056": {
-      "icon": "https://static.wikia.nocookie.net/logo-timeline/images/b/b2/Screenshot_2023-02-14_10.08.37_AM.png/revision/latest/scale-to-width-down/250?cb=20230214181429",
-      "id": "56.0",
-      "name": "TNT FHD",
-      "url": "http://185.236.183.118:14706"
-    },
-    "-CustomKey_00057": {
-      "icon": "https://i.postimg.cc/L5T4KPzC/telecinepremium.png",
-      "id": "57.0",
-      "name": "TELECINE PREMIUM FHD",
-      "url": "http://185.236.183.117:14686"
-    },
-    "-CustomKey_00058": {
-      "icon": "https://yt3.googleusercontent.com/8dmkFX1UcqiTQSTi2pbgNEHi-MPij0Ad6C0ENRbqm3wiZpBo8RYzXiQqyZNViC17JJEiEdTDH8o=s900-c-k-c0x00ffffff-no-rj",
-      "id": "58.0",
-      "name": "MTV HD",
-      "url": "http://15.235.11.7:14149"
-    },
-    "-CustomKey_00059": {
-      "icon": "https://i.postimg.cc/L5T4KPzC/telecinepremium.png",
-      "id": "59.0",
-      "name": "TELECINE PREMIUM HD",
-      "url": "http://185.236.183.117:14685"
-    },
-    "-CustomKey_00060": {
-      "icon": "https://i.postimg.cc/Qdc5B4kv/telecinepipoca.png",
-      "id": "60.0",
-      "name": "TELECINE PIPOCA FHD",
-      "url": "http://185.236.183.117:14682"
-    },
-    "-CustomKey_00061": {
-      "icon": "https://static.wikia.nocookie.net/vozesportuguesas/images/4/42/A_casa_do_mickey_mouse.png/revision/latest?cb=20220210223742&path-prefix=pt",
-      "id": "61.0",
-      "name": "A casa do Mickey Mouse",
-      "url": "http://148.113.160.49:14795"
-    },
-    "-CustomKey_00062": {
-      "icon": "https://m.media-amazon.com/images/M/MV5BZmY5MjE0ZGItY2Q0My00ZWI5LWJmYTEtYWUyMzFkY2FmZDM2XkEyXkFqcGc@._V1_.jpg",
-      "id": "62.0",
-      "name": "Mr Bean HD",
-      "url": "http://15.235.9.200:14970"
-    },
-    "-CustomKey_00063": {
-      "icon": "https://mir-s3-cdn-cf.behance.net/projects/404/fb5f97186677869.Y3JvcCwxMTIyLDg3OCwxMzgsMA.png",
-      "id": "63.0",
-      "name": "POCOYOU",
-      "url": "http://148.113.160.49:14997"
-    },
-    "-CustomKey_00064": {
-      "icon": "https://static.wikia.nocookie.net/logo-timeline/images/b/b2/Screenshot_2023-02-14_10.08.37_AM.png/revision/latest/scale-to-width-down/250?cb=20230214181429",
-      "id": "64.0",
-      "name": "TNT HD",
-      "url": "http://185.236.183.118:14706"
-    },
-    "-CustomKey_00065": {
-      "icon": "https://static.wikia.nocookie.net/logo-timeline/images/b/b2/Screenshot_2023-02-14_10.08.37_AM.png/revision/latest/scale-to-width-down/250?cb=20230214181429",
-      "id": "65.0",
-      "name": "TNT HD",
-      "url": "http://87.249.137.97:14020"
-    },
-    "-CustomKey_00066": {
-      "icon": "https://pbs.twimg.com/media/FvjssXgWcAEIGZS.jpg",
-      "id": "66.0",
-      "name": "TNT NOVELA",
-      "url": "http://185.236.183.117:14669"
-    },
-    "-CustomKey_00067": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlpATa-rdMKI_PW8ASw-RfQmducAGrV2Vpg&s",
-      "id": "67.0",
-      "name": "AXN 4K",
-      "url": "http://185.246.208.74:14203"
-    },
-    "-CustomKey_00068": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwtCpFQqo64C5wtaEzPa3J31Rqcu21O-V9g&s",
-      "id": "68.0",
-      "name": "A&E HD",
-      "url": "http://79.127.238.228:14551"
-    },
-    "-CustomKey_00069": {
-      "icon": "https://guiadefomentodacultura.es.gov.br/Media/guiadefomentodacultura/_Profiles/c4d8c6e6/1705dfe7/canalcurta_0-E.jpg?v=637789885478224960",
-      "id": "69.0",
-      "name": "curta!",
-      "url": "http://15.235.11.7:14171"
-    },
-    "-CustomKey_00070": {
-      "icon": "https://i.postimg.cc/Qdc5B4kv/telecinepipoca.png",
-      "id": "70.0",
-      "name": "TELECINE PIPOCA HD",
-      "url": "http://185.236.183.117:14682"
-    },
-    "-CustomKey_00071": {
-      "icon": "https://i.postimg.cc/JhWFJFwX/telecinefun.png",
-      "id": "71.0",
-      "name": "TELECINE FUN FHD",
-      "url": "http://185.236.183.117:14678"
-    },
-    "-CustomKey_00072": {
-      "icon": "https://i.postimg.cc/JhWFJFwX/telecinefun.png",
-      "id": "72.0",
-      "name": "TELECINE FUN HD",
-      "url": "http://185.236.183.117:14678"
-    },
-    "-CustomKey_00073": {
-      "icon": "https://static.wikia.nocookie.net/fic5689/images/8/87/Prima_Sport_2_new.png/revision/latest/scale-to-width-down/200?cb=20220420124333",
-      "id": "73.0",
-      "name": "PRIMA SPORT 2 FHD",
-      "url": "http://146.59.71.28:14712"
-    },
-    "-CustomKey_00074": {
-      "icon": "https://static.wikia.nocookie.net/fic5689/images/2/24/Prima_Sport_1_new.png/revision/latest/scale-to-width-down/200?cb=20220420124316",
-      "id": "74.0",
-      "name": "PRIMA SPORT 1 FHD",
-      "url": "http://146.59.71.28:14711"
-    },
-    "-CustomKey_00075": {
-      "icon": "https://static.wikia.nocookie.net/logopedia/images/1/18/Prima_Sport_4_new.svg/revision/latest/scale-to-width-down/150?cb=20230126050947",
-      "id": "75.0",
-      "name": "PRIMA SPORT 4 FHD",
-      "url": "http://146.59.71.28:14714"
-    },
-    "-CustomKey_00076": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xqDJPkr9ZA6pY7dHMjaIrkwFqBe0dmyTrLjqXgdX-y9z2I-IEDYApCOpMLZsJfaXw4c&usqp=CAU",
-      "id": "76.0",
-      "name": "EUROSPORT 2 FHD",
-      "url": "http://146.59.71.28:14710"
-    },
-    "-CustomKey_00077": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4bJeOX3sAg2VRFd87aF6Swf_3_-HREaNb6EZdar5DWZOzVH-on_7sh9gKpzp900aIyl4&usqp=CAU",
-      "id": "77.0",
-      "name": "BBC FIRST FHD",
-      "url": "http://146.59.71.28:14301"
-    },
-    "-CustomKey_00078": {
-      "icon": "https://play-lh.googleusercontent.com/vOqFcS3gew00pvFBl-tbSLA-QqXgM4NE7VfghNhkT0Jne6VHOjYEk5s3ZLVxfeV8nT8",
-      "id": "78.0",
-      "name": "DAZN FHD",
-      "url": "http://208.115.234.42:14000"
-    },
-    "-CustomKey_00079": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrTNqqduvPbYxZD5eBcQImCtZb7q9rMedgHg&s",
-      "id": "79.0",
-      "name": "DISNEY JR",
-      "url": "http://79.127.238.249:14467"
-    },
-    "-CustomKey_00080": {
-      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/1280px-Disney%2B_logo.svg.png",
-      "id": "80.0",
-      "name": "DISNEY +",
-      "url": "http://208.115.202.54:14704"
-    },
-    "-CustomKey_00081": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "81.0",
-      "name": "ESPN 4 4K",
-      "url": "http://185.236.183.118:14191"
-    },
-    "-CustomKey_00082": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "82.0",
-      "name": "ESPN 4 HD",
-      "url": "http://185.236.183.118:14191"
-    },
-    "-CustomKey_00083": {
-      "icon": "https://cdn.iconscout.com/icon/free/png-256/free-espn-logo-icon-download-in-svg-png-gif-file-formats--brand-brands-and-logos-pack-icons-2673814.png?f=webp",
-      "id": "83.0",
-      "name": "ESPN 5 SD",
-      "url": "http://185.236.183.118:14212"
-    },
-    "-CustomKey_00084": {
-      "icon": "https://lh3.googleusercontent.com/P1Gb0uAPTDIc0ggjDYoOY6aD5YlcIDWfovbYon4nRtsIHjEvtz4ov22BqWOZ25YLHAk",
-      "id": "84.0",
-      "name": "DISCOVERY TURBO",
-      "url": "http://79.127.238.228:14367"
-    },
-    "-CustomKey_00085": {
-      "icon": "https://t.ctcdn.com.br/-35CC43O6EaRQ97-IykE4DamCx0=/0x0:1276x718/640x360/smart/i381617.jpeg",
-      "id": "85.0",
-      "name": "HBO HD",
-      "url": "http://185.236.183.118:14395"
-    },
-    "-CustomKey_00086": {
-      "icon": "https://t.ctcdn.com.br/-35CC43O6EaRQ97-IykE4DamCx0=/0x0:1276x718/640x360/smart/i381617.jpeg",
-      "id": "86.0",
-      "name": "HBO SD",
-      "url": "http://185.236.183.118:14395"
-    },
-    "-CustomKey_00087": {
-      "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
-      "id": "87.0",
-      "name": "HBO MAX 1",
-      "url": "http://79.127.238.249:14494"
-    },
-    "-CustomKey_00088": {
-      "icon": "https://play-lh.googleusercontent.com/bvyVXgpxu65YO3PNeVhNM9Y7ao7g7FnnKdoNXcwqO48aOlVvnH_b2O9rcZzgEFHzHtI",
-      "id": "88.0",
-      "name": "HBO MAX 2",
-      "url": "http://178.162.225.116:2082/Xplus-V3-VMCYCk1nEb/xAG4GfbYVt/834"
-    },
-    "-CustomKey_00089": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxTEFUEuKR8h4oQmICzD5DWbCQ-hB014K4ww&s",
-      "id": "89.0",
-      "name": "BABY TV FHD",
-      "url": "http://185.236.183.117:14025"
-    },
-    "-CustomKey_00090": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwtCpFQqo64C5wtaEzPa3J31Rqcu21O-V9g&s",
-      "id": "90.0",
-      "name": "A&E SD",
-      "url": "http://185.236.183.117:14003"
-    },
-    "-CustomKey_00091": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqwtCpFQqo64C5wtaEzPa3J31Rqcu21O-V9g&s",
-      "id": "91.0",
-      "name": "A&E FHD",
-      "url": "http://185.236.183.117:14002"
-    },
-    "-CustomKey_00092": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxTEFUEuKR8h4oQmICzD5DWbCQ-hB014K4ww&s",
-      "id": "92.0",
-      "name": "BABY TV DH",
-      "url": "http://185.236.183.117:14026"
-    },
-    "-CustomKey_00093": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxTEFUEuKR8h4oQmICzD5DWbCQ-hB014K4ww&s",
-      "id": "93.0",
-      "name": "BABY TV SD",
-      "url": "http://185.236.183.117:14024"
-    },
-    "-CustomKey_00094": {
-      "icon": "https://i.postimg.cc/xCCN6gQF/fea7218afa419fa1b695002bca9f2f9f.jpg",
-      "id": "94.0",
-      "name": "HBO Mundi 4K",
-      "url": "http://185.236.183.118:14410"
-    },
-    "-CustomKey_00095": {
-      "icon": "https://i.postimg.cc/xCCN6gQF/fea7218afa419fa1b695002bca9f2f9f.jpg",
-      "id": "95.0",
-      "name": "HBO Mundi HD",
-      "url": "http://185.236.183.118:14410"
-    },
-    "-CustomKey_00096": {
-      "icon": "https://i.postimg.cc/qvzqmh0M/Hbopop.webp",
-      "id": "96.0",
-      "name": "HBO Pop 4K",
-      "url": "http://185.236.183.118:14414"
-    },
-    "-CustomKey_00097": {
-      "icon": "https://i.postimg.cc/qvzqmh0M/Hbopop.webp",
-      "id": "97.0",
-      "name": "HBO Pop HD",
-      "url": "http://185.236.183.118:14415"
-    },
-    "-CustomKey_00098": {
-      "icon": "https://i.postimg.cc/rFzqTBHf/Hboxtreme.webp",
-      "id": "98.0",
-      "name": "HBO Xtreme 4K",
-      "url": "http://148.113.160.49:14175"
-    },
-    "-CustomKey_00099": {
-      "icon": "https://media.licdn.com/dms/image/v2/D4D0BAQHsA5n06uD8lg/company-logo_200_200/company-logo_200_200/0/1724261816175/canalgoatbr_logo?e=2147483647&v=beta&t=dfxEukxJJeE3n5kqMFqLgcWoRFEK60Eq-3GhUkGRLIg",
-      "id": "99.0",
-      "name": "Goat TV HD",
-      "url": "http://185.236.183.118:14126"
-    },
-    "-CustomKey_00100": {
-      "icon": "https://i.postimg.cc/Qdc5B4kv/telecinepipoca.png",
-      "id": "100.0",
-      "name": "TELECINE PIPOCA SD",
-      "url": "http://185.236.183.117:14682"
-    },
-    "-CustomKey_00101": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf6kcUUuOnXfd5DafMTAUYCbndn_NdLwH5qA&s",
-      "id": "101.0",
-      "name": "AGRO+ HD",
-      "url": "http://185.236.183.117:14005"
-    },
-    "-CustomKey_00102": {
-      "icon": "https://d3faj0w6aqatyx.cloudfront.net/uploads/2018/10/25115647/AnimalPlanet_Vertical_OneLineLarge_RGB-002.jpg",
-      "id": "102.0",
-      "name": "Animalplanet HD",
-      "url": "http://79.127.238.228:14386"
-    },
-    "-CustomKey_00103": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlpATa-rdMKI_PW8ASw-RfQmducAGrV2Vpg&s",
-      "id": "103.0",
-      "name": "AXN SD",
-      "url": "http://185.246.208.74:14203"
-    },
-    "-CustomKey_00104": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlpATa-rdMKI_PW8ASw-RfQmducAGrV2Vpg&s",
-      "id": "104.0",
-      "name": "AXN HD",
-      "url": "http://185.236.183.117:14022"
-    },
-    "-CustomKey_00105": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS8Mh6A-clOEOUmTUPVI9rJ3NgAI5nh_cKkA&s",
-      "id": "105.0",
-      "name": "BAND NEWS SD",
-      "url": "http://185.236.183.117:14041"
-    },
-    "-CustomKey_00106": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCPzluaVMUn_2oNPapqNvV_nCDyOOPxJ2Qqw&s",
-      "id": "106.0",
-      "name": "AMC HD",
-      "url": "http://185.236.183.117:14009"
-    },
-    "-CustomKey_00107": {
-      "icon": "https://i.postimg.cc/mDFq2pm0/programas-abertura-TV.jpg",
-      "id": "107.0",
-      "name": "TV Cultura HD",
-      "url": "http://64.31.53.206:14816"
-    },
-    "-CustomKey_00108": {
-      "icon": "https://static.wikia.nocookie.net/logopedia/images/5/51/Canal_Futura_%282022%2C_stacked%29.svg/revision/latest/scale-to-width-down/250?cb=20230430160430",
-      "id": "108.0",
-      "name": "4 Futura HD",
-      "url": "http://89.187.177.194:14226"
-    },
-    "-CustomKey_00109": {
-      "icon": "https://i.postimg.cc/zGc9z4Tk/channels4-profile-4.jpg",
-      "id": "109.0",
-      "name": "Record News SD",
-      "url": "http://64.31.42.58:14077"
-    },
-    "-CustomKey_00110": {
-      "icon": "https://i.postimg.cc/W3njSXJq/Rede-aparecida-de-comunicacao.jpg",
-      "id": "110.0",
-      "name": "TV Aparecida HD",
-      "url": "http://178.162.225.116:2082/Xplus-V3-VMCYCk1nEb/xAG4GfbYVt/542"
-    },
-    "-CustomKey_00111": {
-      "icon": "https://i.postimg.cc/rsMLB9Q5/628937.jpg",
-      "id": "111.0",
-      "name": "8 Globo AM HD",
-      "url": "http://208.115.234.42:14202"
-    },
-    "-CustomKey_00112": {
-      "icon": "https://i.postimg.cc/rs3H9rgt/unnamed.webp",
-      "id": "112.0",
-      "name": "Boas Novas Amazonas HD",
-      "url": "https://cdn.jmvstream.com/w/AVJ-12960/playlist/chunklist.m3u8"
-    },
-    "-CustomKey_00113": {
-      "icon": "https://i.postimg.cc/prGVZqnX/Sportv-nova-logo.webp",
-      "id": "113.0",
-      "name": "Sportv 3 HD",
-      "url": "http://185.236.183.117:14650"
-    },
-    "-CustomKey_00114": {
-      "icon": "https://i.postimg.cc/0jghqmRd/1200x630wa.png",
-      "id": "114.0",
-      "name": "DAZN 2 HD",
-      "url": "http://208.115.234.42:14001"
-    },
-    "-CustomKey_00115": {
-      "icon": "https://i.postimg.cc/0jghqmRd/1200x630wa.png",
-      "id": "115.0",
-      "name": "DAZN 2 FHD",
-      "url": "http://208.115.202.54:14040"
-    },
-    "-CustomKey_00116": {
-      "icon": "https://i.postimg.cc/0jghqmRd/1200x630wa.png",
-      "id": "116.0",
-      "name": "DAZN 4 HD",
-      "url": "http://208.115.234.42:14003"
-    },
-    "-CustomKey_00117": {
-      "icon": "https://i.postimg.cc/0jghqmRd/1200x630wa.png",
-      "id": "117.0",
-      "name": "DAZN 4 FHD",
-      "url": "http://208.115.202.54:14042"
-    },
-    "-CustomKey_00118": {
-      "icon": "https://i.postimg.cc/0jghqmRd/1200x630wa.png",
-      "id": "118.0",
-      "name": "DAZN 3 FHD",
-      "url": "http://208.115.234.42:14002"
-    },
-    "-CustomKey_00119": {
-      "icon": "https://i.postimg.cc/0jghqmRd/1200x630wa.png",
-      "id": "119.0",
-      "name": "DAZN 5 FHD",
-      "url": "http://208.115.234.42:14004"
-    },
-    "-CustomKey_00120": {
-      "icon": "https://i.postimg.cc/bvtTf5zW/Fs4-Lwy1-WYAEH-wr.jpg",
-      "id": "120.0",
-      "name": "Paramount+ HD",
-      "url": "http://185.236.183.118:14042"
-    },
-    "-CustomKey_00121": {
-      "icon": "https://i.postimg.cc/bvtTf5zW/Fs4-Lwy1-WYAEH-wr.jpg",
-      "id": "121.0",
-      "name": "Paramount+ 2 HD",
-      "url": "http://185.236.183.118:14043"
-    },
-    "-CustomKey_00122": {
-      "icon": "https://i.postimg.cc/bvtTf5zW/Fs4-Lwy1-WYAEH-wr.jpg",
-      "id": "122.0",
-      "name": "Paramount+ 3 HD",
-      "url": "http://185.236.183.118:14040"
-    },
-    "-CustomKey_00123": {
-      "icon": "https://i.postimg.cc/bvtTf5zW/Fs4-Lwy1-WYAEH-wr.jpg",
-      "id": "123.0",
-      "name": "Paramount+ 4 HD",
-      "url": "http://185.236.183.118:14042"
-    },
-    "-CustomKey_00124": {
-      "icon": "https://i.postimg.cc/bvtTf5zW/Fs4-Lwy1-WYAEH-wr.jpg",
-      "id": "124.0",
-      "name": "Paramount+ 5 HD",
-      "url": "http://185.236.183.118:14040"
-    },
-    "-CustomKey_00125": {
-      "icon": "https://i.postimg.cc/ZRyGpy0B/p4j-KLBI9-400x400.jpg",
-      "id": "125.0",
-      "name": "Off HD",
-      "url": "http://15.235.11.7:14075"
-    },
-    "-CustomKey_00126": {
-      "icon": "https://i.postimg.cc/MKV48BhG/hbj-LKSEvxwl-S6g-Rr-FMa-C76-OHR8-OXyi-Wke9-Lj-Axtl.png",
-      "id": "126.0",
-      "name": "Sony Channel FHD",
-      "url": "http://185.236.183.117:14636"
-    },
-    "-CustomKey_00127": {
-      "icon": "https://i.postimg.cc/Wz5mPnVC/tooncast.jpg",
-      "id": "127.0",
-      "name": "Tooncast HD",
-      "url": "http://185.236.183.117:14711"
-    },
-    "-CustomKey_00128": {
-      "icon": "https://i.postimg.cc/PrBpvcSK/ab6761610000e5eb48c209065ea0afd328c8d43e.jpg",
-      "id": "128.0",
-      "name": "Nickelodeon HD",
-      "url": "http://15.235.50.113:14576"
-    },
-    "-CustomKey_00129": {
-      "icon": "https://i.postimg.cc/NjDKCMgC/nick-jr-shows-games-logo.avif",
-      "id": "129.0",
-      "name": "Nick Jr HD",
-      "url": "http://15.235.11.7:14574"
-    },
-    "-CustomKey_00130": {
-      "icon": "https://i.postimg.cc/XY5ZKbqX/MEGA.png",
-      "id": "130.0",
-      "name": "MEGAPIX FHD",
-      "url": "http://79.127.238.228:14592"
-    },
-    "-CustomKey_00131": {
-      "icon": "https://i.postimg.cc/k4H6FXQ6/Paramount-canal.png",
-      "id": "131.0",
-      "name": "Paramount HD",
-      "url": "http://185.236.183.118:14042"
-    },
-    "-CustomKey_00132": {
-      "icon": "https://i.postimg.cc/zGf5wmjK/COMEDY.png",
-      "id": "132.0",
-      "name": "Comedy Central HD",
-      "url": "http://185.236.183.117:14128"
-    },
-    "-CustomKey_00133": {
-      "icon": "https://i.postimg.cc/66HLSpHm/generic-thumb.jpg",
-      "id": "133.0",
-      "name": "History HD",
-      "url": "http://46.151.196.223:14410"
-    },
-    "-CustomKey_00134": {
-      "icon": "https://i.postimg.cc/QNQPDD73/Canal-Discovery-Turbo.jpg",
-      "id": "134.0",
-      "name": "Turbo Discovery HD",
-      "url": "http://79.127.238.228:14367"
-    },
-    "-CustomKey_00135": {
-      "icon": "https://i.postimg.cc/QNQPDD73/Canal-Discovery-Turbo.jpg",
-      "id": "135.0",
-      "name": "Discovery World",
-      "url": "http://15.235.50.112:14112"
-    },
-    "-CustomKey_00136": {
-      "icon": "https://i.postimg.cc/XY5ZKbqX/MEGA.png",
-      "id": "136.0",
-      "name": "MEGAPIX HD",
-      "url": "http://79.127.238.228:14592"
-    },
-    "-CustomKey_00137": {
-      "icon": "https://m.media-amazon.com/images/I/81JPoux6CsL._SL1500_.jpg",
-      "id": "137.0",
-      "name": "Digimon 24H SD",
-      "url": "http://15.235.9.200:14871"
-    },
-    "-CustomKey_00138": {
-      "icon": "https://m.media-amazon.com/images/I/81JPoux6CsL._SL1500_.jpg",
-      "id": "138.0",
-      "name": "Digimon 24H HD",
-      "url": "http://15.235.9.200:14867"
-    },
-    "-CustomKey_00139": {
-      "icon": "https://m.media-amazon.com/images/M/MV5BYTgyMzA5MjEtNDY3Ny00ZDkyLWJhYzEtYzI2Nzk5Mzc3ZDk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "id": "139.0",
-      "name": "Dragon Ball Super FHD",
-      "url": "http://15.235.9.200:14883"
-    },
-    "-CustomKey_00140": {
-      "icon": "https://m.media-amazon.com/images/S/pv-target-images/334f00b53cf3ef848ea7048b25711bc98e8236ce1685a096990c80d0965835ea.png",
-      "id": "140.0",
-      "name": "Dragon Ball Z FHD",
-      "url": "http://15.235.9.200:14882"
-    },
-    "-CustomKey_00141": {
-      "icon": "https://br.web.img2.acsta.net/pictures/22/11/22/14/02/3642167.jpg",
-      "id": "141.0",
-      "name": "Dragon Ball  HD",
-      "url": "http://15.235.9.200:14887"
-    },
-    "-CustomKey_00142": {
-      "icon": "https://static.wikia.nocookie.net/international-entertainment-project/images/0/09/Looney_Tunes_poster.jpg/revision/latest?cb=20221025052703",
-      "id": "142.0",
-      "name": "Looney Tunes FHD",
-      "url": "http://15.235.9.200:14893"
-    },
-    "-CustomKey_00143": {
-      "icon": "https://br.web.img2.acsta.net/pictures/23/06/28/14/00/0243959.jpg",
-      "id": "143.0",
-      "name": "Futurama HD",
-      "url": "http://15.235.9.200:14924"
-    },
-    "-CustomKey_00144": {
-      "icon": "https://upload.wikimedia.org/wikipedia/pt/e/e7/Galinha_Pintadinha.png",
-      "id": "144.0",
-      "name": "Galinha pintadinha HD",
-      "url": "http://15.235.9.200:14927"
-    },
-    "-CustomKey_00145": {
-      "icon": "https://pbs.twimg.com/profile_images/1138960296129826816/J6JFTtn3_400x400.jpg",
-      "id": "145.0",
-      "name": "4 Amigos HD",
-      "url": "http://15.235.9.200:14917"
-    },
-    "-CustomKey_00146": {
-      "icon": "https://i.pinimg.com/736x/cd/bc/d6/cdbcd658ab7ca923498cd9129ff77f92.jpg",
-      "id": "146.0",
-      "name": "Gato das botais 24H  SD",
-      "url": "http://15.235.9.200:14932"
-    },
-    "-CustomKey_00147": {
-      "icon": "https://cdn.dooca.store/63792/products/fvxisgstfuwu8yomnistbs3rb8ggzxrydgia.jpg?v=1703202202&webp=0",
-      "id": "147.0",
-      "name": "Moranguinho SD",
-      "url": "http://15.235.9.200:14968"
-    },
-    "-CustomKey_00148": {
-      "icon": "https://i.pinimg.com/736x/55/d3/ae/55d3ae58cef3f90447d8363e9832f03e.jpg",
+      "url": "http://38.46.143.121:14474"
+    },
+    "-OSBEKlylNvmAAvgXuFK": {
+      "icon": "http://beststorage4you.com:80/logoscanais/UFCFIGHTPASS.png",
+      "id": "250107.0",
+      "name": "UFC Fight Pass HD",
+      "url": "http://143.244.58.89:14000"
+    },
+    "-OSBEqLFlnPbn5G-_3w4": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "309458.0",
+      "name": "ESPN FHD",
+      "url": "http://38.114.123.112:14450"
+    },
+    "-OSBF-XlOMGZD864N17Z": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "520127.0",
+      "name": "ESPN HD ",
+      "url": "http://38.114.123.112:14430"
+    },
+    "-OSBF3IsdvK860V7u4-b": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "309458.0",
+      "name": "ESPN FHD",
+      "url": "http://38.114.123.112:14429\n"
+    },
+    "-OSBF9IMtt2a-ONxPJep": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "220.0",
+      "name": "ESPN 3 FHD",
+      "url": "http://38.114.123.112:14447"
+    },
+    "-OSBFDznxANfi-IcBys5": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "213.0",
+      "name": "ESPN 2 HD",
+      "url": "http://38.114.123.112:14442"
+    },
+    "-OSBFL3Cz7yagXhwn8Lm": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "218.0",
+      "name": "ESPN 3 HD",
+      "url": "http://38.114.123.112:14449"
+    },
+    "-OSBFSNOEFjpJ2gNawCm": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "225.0",
+      "name": "ESPN 4 FHD",
+      "url": "http://38.114.123.112:14438"
+    },
+    "-OSBFVT2Q_LZUYmw9dZK": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "225.0",
+      "name": "ESPN 4 FHD",
+      "url": "http://38.114.123.112:14435"
+    },
+    "-OSBFb4KiLcNxkMZnCyR": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "563030.0",
+      "name": "ESPN 5 FHD",
+      "url": "http://38.114.123.112:14453"
+    },
+    "-OSBFfyrREraCbtQhBT9": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "563031.0",
+      "name": "ESPN 5 HD",
+      "url": "http://38.114.123.112:14454"
+    },
+    "-OSBFkNf9zow4pS6tP9a": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "563035.0",
+      "name": "ESPN 6 FHD",
+      "url": "http://38.114.123.112:14513"
+    },
+    "-OSBFnXWBLo4K1cSmB97": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "563035.0",
+      "name": "ESPN 6 FHD",
+      "url": "http://38.114.123.112:14510"
+    },
+    "-OSBFqlQfTOlfYOO0Mwz": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ESPN.png",
+      "id": "563036.0",
+      "name": "ESPN 6 HD",
+      "url": "http://38.114.123.112:14512"
+    },
+    "-OSBFxdCGA4PRkbyXFFE": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SPORTV.png",
+      "id": "547.0",
+      "name": "SporTV HD",
+      "url": "http://38.114.123.112:14408"
+    },
+    "-OSBG5XSlrCq6ktLfKIz": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SPORTV.png",
+      "id": "118881.0",
+      "name": "SporTV FHD",
+      "url": "http://38.114.123.112:14414"
+    },
+    "-OSBGNvwv50OMNZ4FP1P": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "21269.0",
+      "name": "Premiere Clubes UHD",
+      "url": "http://87.249.137.97:14780"
+    },
+    "-OSBGQtfufd-hiHXkMP2": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "497.0",
+      "name": "Premiere 2 HD",
+      "url": "http://87.249.137.97:14819"
+    },
+    "-OSBGXqEwwWdr4hcsP8k": {
+      "icon": "http://beststorage4you.com:80/logoscanais/PREMIERE.png",
+      "id": "502.0",
+      "name": "Premiere 3 HD",
+      "url": "http://87.249.137.97:14839"
+    },
+    "-OSBGqvvXtt4YWoCiDfP": {
+      "icon": "http://beststorage4you.com:80/logoscanais/GLOBO.png",
+      "id": "284587.0",
+      "name": "GLOBO SP UHD",
+      "url": "http://38.114.123.112:14006"
+    },
+    "-OSBGuGv_YrbcHhtduj1": {
+      "icon": "http://beststorage4you.com:80/logoscanais/GLOBO.png",
+      "id": "284587.0",
+      "name": "GLOBO SP UHD",
+      "url": "http://38.114.123.112:14012"
+    },
+    "-OSBGwfGzqYEdsbuYgl7": {
+      "icon": "http://beststorage4you.com:80/logoscanais/GLOBO.png",
+      "id": "284587.0",
+      "name": "GLOBO SP UHD",
+      "url": "http://38.114.123.112:14013"
+    },
+    "-OSBH2Ez77XNq_FjN1Ww": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244161.0",
+      "name": "SBT SP FHD",
+      "url": "http://38.46.143.121:14007"
+    },
+    "-OSBH4xxc8cDNcZU42rN": {
+      "icon": "http://beststorage4you.com:80/logoscanais/SBT.png",
+      "id": "244167.0",
+      "name": "SBT SP HD",
+      "url": "http://38.46.143.121:14003"
+    },
+    "-OSBH9spcXbnw-gLm9Nm": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TVCULTURA.png",
       "id": "148.0",
-      "name": "Mr Bean HD",
-      "url": "http://15.235.9.200:14970"
+      "name": "TV Cultura HD",
+      "url": "http://136.243.3.51:1454"
     },
-    "-CustomKey_00149": {
-      "icon": "https://static.wikia.nocookie.net/dublagem/images/f/f5/Paw-patrol.jpg/revision/latest?cb=20231108175832&path-prefix=pt-br",
-      "id": "149.0",
-      "name": "Patrulha canina SD",
-      "url": "http://15.235.9.200:14988"
+    "-OSBHDqxnhNgsXb9h1YH": {
+      "icon": "http://beststorage4you.com:80/logoscanais/MULTISHOW.png",
+      "id": "377243.0",
+      "name": "Multishow HD",
+      "url": "http://38.114.123.112:14279"
     },
-    "-CustomKey_00150": {
-      "icon": "https://m.media-amazon.com/images/M/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "id": "150.0",
-      "name": "Simpson SD",
-      "url": "http://15.235.9.200:14984"
+    "-OSBHJ_03pib_JS3SrFV": {
+      "icon": "http://beststorage4you.com:80/logoscanais/REDETV!.png",
+      "id": "80172.0",
+      "name": "Rede TV HD",
+      "url": "http://38.46.143.121:14266"
     },
-    "-CustomKey_00151": {
-      "icon": "https://mir-s3-cdn-cf.behance.net/projects/404/fb5f97186677869.Y3JvcCwxMTIyLDg3OCwxMzgsMA.png",
-      "id": "151.0",
-      "name": "Pocoyo SD",
-      "url": "http://15.235.9.200:14997"
-    },
-    "-CustomKey_00152": {
-      "icon": "https://m.media-amazon.com/images/M/MV5BNTBhODQ2ZjEtMDMzMS00ZjlkLWI2YWItMmQ3MWNjN2U3ODczXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "id": "152.0",
-      "name": "Scoobido HD",
-      "url": "http://15.235.9.200:14978"
-    },
-    "-CustomKey_00153": {
-      "icon": "https://musicart.xboxlive.com/7/0e456b00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
-      "id": "153.0",
-      "name": "Garfil SD",
-      "url": "http://15.235.9.200:14929"
-    },
-    "-CustomKey_00154": {
-      "icon": "https://yt3.googleusercontent.com/Io16DRvmkujSDGSkWtcnirO7pOaz47ktcTnut7QG3AkUVVc9RkOfg5a-bYouDg8BLPTpD5gBsg=s900-c-k-c0x00ffffff-no-rj",
-      "id": "154.0",
-      "name": "Canal Panda HD",
-      "url": "http://208.115.202.54:14083"
-    },
-    "-CustomKey_00155": {
-      "icon": "https://i.postimg.cc/MKV48BhG/hbj-LKSEvxwl-S6g-Rr-FMa-C76-OHR8-OXyi-Wke9-Lj-Axtl.png",
-      "id": "155.0",
-      "name": "Sony Channel SD",
-      "url": "http://148.113.160.49:14204"
-    },
-    "-CustomKey_00156": {
-      "icon": "https://i.postimg.cc/MKV48BhG/hbj-LKSEvxwl-S6g-Rr-FMa-C76-OHR8-OXyi-Wke9-Lj-Axtl.png",
-      "id": "156.0",
-      "name": "Sony Channel HD",
-      "url": "http://185.236.183.117:14637"
-    },
-    "-CustomKey_00157": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU1xDYo08gLHPMKXLkVYU3IQtZPVd8kECkdw&s",
-      "id": "157.0",
-      "name": "TLC HD",
-      "url": "http://185.236.183.117:14699"
-    },
-    "-CustomKey_00158": {
-      "icon": "https://i.postimg.cc/Wz5mPnVC/tooncast.jpg",
-      "id": "158.0",
-      "name": "Tooncast HD",
-      "url": "http://185.236.183.117:14711"
-    },
-    "-CustomKey_00159": {
-      "icon": "https://hotmart.s3.amazonaws.com/product_pictures/6042a28e-e7f7-457a-b461-ef59164e6d97/camaradeputados.png",
-      "id": "159.0",
-      "name": "Camara dos Deputados FHD",
-      "url": "http://185.236.183.117:14744"
-    },
-    "-CustomKey_00160": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkp-1gdDS719qDaV0f20w7fVvd-HphXhASg&s",
-      "id": "160.0",
-      "name": "TV SENADO SD",
-      "url": "http://38.99.238.68:14745"
-    },
-    "-CustomKey_00161": {
-      "icon": "https://i.postimg.cc/DZYqDC2M/B4-BVx-Vhqv-Mhiz-Bgo2-Ac-KDx-Tpe-Ks-LIm-CKhv-Frd-Wsf.png",
-      "id": "161.0",
-      "name": "VIVA HD",
-      "url": "http://79.127.238.228:14455"
-    },
-    "-CustomKey_00162": {
-      "icon": "https://static.wikia.nocookie.net/tvfanon6528/images/f/f4/Animal_Planet_HD_%282018-.n.v.%29.png/revision/latest/scale-to-width-down/1200?cb=20190715173635",
-      "id": "162.0",
-      "name": "Animal planet HD",
-      "url": "http://79.127.238.228:14386"
-    },
-    "-CustomKey_00163": {
-      "icon": "https://cdn.prod.website-files.com/640b40225e0d9452eb6904e2/640b40225e0d941c5c690a77_star-comedy.jpeg",
-      "id": "163.0",
-      "name": "Star Comedy",
-      "url": "http://208.115.202.54:14632"
-    },
-    "-CustomKey_00164": {
-      "icon": "https://pbs.twimg.com/profile_images/1747989339764572160/7nxm03-2_400x400.jpg",
-      "id": "164.0",
-      "name": "LALIGA TV HD",
-      "url": "https://danny.solutions/playlist/stream_6.m3u8"
-    },
-    "-CustomKey_00165": {
-      "icon": "https://i.postimg.cc/DZYqDC2M/B4-BVx-Vhqv-Mhiz-Bgo2-Ac-KDx-Tpe-Ks-LIm-CKhv-Frd-Wsf.png",
-      "id": "165.0",
-      "name": "VIVA FHD",
-      "url": "http://15.235.15.230:14177"
-    },
-    "-CustomKey_00166": {
-      "icon": "https://static.wikia.nocookie.net/dublagem/images/f/f5/Paw-patrol.jpg/revision/latest?cb=20231108175832&path-prefix=pt-br",
-      "id": "166.0",
-      "name": "Patrulha canina FHD",
-      "url": "http://208.115.202.54:14381"
-    },
-    "-CustomKey_00167": {
-      "icon": "https://m.media-amazon.com/images/M/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "id": "167.0",
-      "name": "Simpson HD",
-      "url": "http://208.115.202.54:14455"
-    },
-    "-CustomKey_00168": {
-      "icon": "https://i.postimg.cc/MTbkRgB7/Logotipo-do-SBT-svg.webp",
-      "id": "168.0",
-      "name": "SBT HD",
-      "url": "http://185.236.183.117:14618"
-    },
-    "-CustomKey_00169": {
-      "icon": "https://i.postimg.cc/MTbkRgB7/Logotipo-do-SBT-svg.webp",
-      "id": "169.0",
-      "name": "SBT 4K",
-      "url": "http://185.236.183.117:14618"
-    },
-    "-CustomKey_00170": {
-      "icon": "https://static.wikia.nocookie.net/international-entertainment-project/images/0/09/Looney_Tunes_poster.jpg/revision/latest?cb=20221025052703",
-      "id": "170.0",
-      "name": "LOONEY TOONS",
-      "url": "http://208.115.202.54:14349"
-    },
-    "-CustomKey_00171": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNgR_q1q_4Z8fLSefQSd_aI8n75GbGyB8GQ&s",
-      "id": "171.0",
-      "name": "Gloobinho SD",
-      "url": "http://185.236.183.117:14382"
-    },
-    "-CustomKey_00172": {
-      "icon": "https://static.stocktitan.net/company-logo/gnt-lg.png",
-      "id": "172.0",
-      "name": "gnt HD",
-      "url": "http://79.127.238.228:14402"
-    },
-    "-CustomKey_00173": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1CktUgkZOQx-zZE9p7Z1fluIb8bISfdgLZA&s",
-      "id": "173.0",
-      "name": "Band Sports FHD",
-      "url": "http://185.236.183.117:14046"
-    },
-    "-CustomKey_00174": {
-      "icon": "https://i.postimg.cc/zGf5wmjK/COMEDY.png",
-      "id": "174.0",
-      "name": "Comedy Central FHD",
-      "url": "http://185.236.183.117:14129"
-    },
-    "-CustomKey_00175": {
-      "icon": "https://logodix.com/logo/1265677.png",
-      "id": "175.0",
-      "name": "HBO2 4K",
-      "url": "http://15.235.50.112:14189"
-    },
-    "-CustomKey_00176": {
-      "icon": "https://www.cxtv.com.br/img/Tvs/Logo/webp-m/b0baf19518fb782525c37b40c2f5d9b5.webp",
-      "id": "176.0",
-      "name": "Rede TV FHD",
-      "url": "http://185.236.183.117:14588"
-    },
-    "-CustomKey_00177": {
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRATFUeUjU1t8T7c3mCgDduHlywI9889MuuEQ&s",
-      "id": "177.0",
-      "name": "CINEMAX SD",
-      "url": "http://185.236.183.117:14112"
-    },
-    "-CustomKey_00178": {
-      "icon": "https://i.postimg.cc/0jghqmRd/1200x630wa.png",
-      "id": "178.0",
-      "name": "DAZN 6 FHD",
-      "url": "http://208.115.234.42:14005"
-    },
-    "-CustomKey_00179": {
-      "icon": "https://yt3.googleusercontent.com/Io16DRvmkujSDGSkWtcnirO7pOaz47ktcTnut7QG3AkUVVc9RkOfg5a-bYouDg8BLPTpD5gBsg=s900-c-k-c0x00ffffff-no-rj",
-      "id": "179.0",
-      "name": "Canal Panda HD",
-      "url": "http://208.115.202.54:14083"
+    "-OSBHQXEg9GK3n4nvqfx": {
+      "icon": "http://beststorage4you.com:80/logoscanais/RECORDTV.png",
+      "id": "244074.0",
+      "name": "RecordSP 4K ",
+      "url": "http://38.46.143.121:14057"
     }
   }
+
 }
