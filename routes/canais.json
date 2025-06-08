@@ -287,7 +287,42 @@
       "id": "264556.0",
       "name": "TNT Novelas  HD",
       "url": "http://87.249.137.97:14038"
+    },
+    "-OSCURQhlOY0110rnz_y": {
+      "icon": "http://beststorage4you.com:80/logoscanais/ANIMALPLANET.png",
+      "id": "365234.0",
+      "name": "Animal Planet HD",
+      "url": "http://38.46.143.121:14386"
+    },
+    "-OSCUajNytfIknm2J_X1": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/1200px-World_Discovery_HD_logo.svg.png",
+      "id": "249232.0",
+      "name": "LAT | Discovery World",
+      "url": "http://38.46.143.121:14373"
+    },
+    "-OSCUhOIBGXmFrcF8AhO": {
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Discovery_Turbo_logo.svg/1200px-Discovery_Turbo_logo.svg.png",
+      "id": "249227.0",
+      "name": "LAT | Discovery Turbo",
+      "url": "http://38.46.143.121:14367"
+    },
+    "-OSCUy6dj3uLlcp56n_K": {
+      "icon": "http://beststorage4you.com:80/logoscanais/Portugal.png",
+      "id": "112067.0",
+      "name": "Discovery ID",
+      "url": "http://38.46.143.121:14379"
+    },
+    "-OSCVBmMLR6Ay25AjYyO": {
+      "icon": "https://cdn.mitvstatic.com/channels/co_discovery-science_m.png",
+      "id": "249233.0",
+      "name": "LAT | Discovery Science",
+      "url": "http://38.46.143.121:14355"
+    },
+    "-OSCVK_lUzPp-XH-zkQA": {
+      "icon": "http://beststorage4you.com:80/logoscanais/HISTORY.png",
+      "id": "2620.0",
+      "name": "History 2 HD",
+      "url": "http://38.46.143.121:14392"
     }
   }
-
 }
