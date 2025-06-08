@@ -173,6 +173,120 @@
       "id": "244074.0",
       "name": "RecordSP 4K ",
       "url": "http://38.46.143.121:14057"
+    },
+    "-OSCLX0SfARPvoNNEOJf": {
+      "icon": "http://beststorage4you.com:80/logoscanais/UNIVERSALTV.png",
+      "id": "742.0",
+      "name": "Universal TV HD",
+      "url": "http://143.244.58.89:14100"
+    },
+    "-OSCLaqO49rmt62NPPKz": {
+      "icon": "http://beststorage4you.com:80/logoscanais/AMC.png",
+      "id": "669.0",
+      "name": "AMC HD",
+      "url": "http://143.244.58.89:14161"
+    },
+    "-OSCLlG15vZNPL3lFPpM": {
+      "icon": "http://beststorage4you.com:80/logoscanais/WARNERCHANNEL.png",
+      "id": "746.0",
+      "name": "Warner Channel HD",
+      "url": "http://143.244.58.89:14120"
+    },
+    "-OSCLplvk5_x5QdFdnmd": {
+      "icon": "http://beststorage4you.com:80/logoscanais/AXN.png",
+      "id": "674.0",
+      "name": "AXN HD",
+      "url": "http://143.244.58.89:14203"
+    },
+    "-OSCLtj39c7NBJ6D-s-8": {
+      "icon": "http://beststorage4you.com:80/logoscanais/A&E.png",
+      "id": "664.0",
+      "name": "A&E HD",
+      "url": "http://79.127.238.228:14551"
+    },
+    "-OSCM-E2SkFgNmZ5YB2f": {
+      "icon": "http://beststorage4you.com:80/logoscanais/MEGAPIX.png",
+      "id": "690.0",
+      "name": "Megapix HD",
+      "url": "http://79.127.238.228:14592"
+    },
+    "-OSCM69Pz9VcJFIVDfIa": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TNT.png",
+      "id": "731.0",
+      "name": "TNT HD",
+      "url": "http://79.127.238.228:14629"
+    },
+    "-OSCMCNDBjkvVlWTEEoU": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "618.0",
+      "name": "Telecine Cult HD",
+      "url": "http://87.249.137.97:14000"
+    },
+    "-OSCMJk0bB-2hITpm_gs": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "589.0",
+      "name": "Telecine Touch FHD",
+      "url": "http://87.249.137.97:14992"
+    },
+    "-OSCMO-y9-DKo3O4wpdI": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "587.0",
+      "name": "Telecine Touch HD",
+      "url": "http://87.249.137.97:14980"
+    },
+    "-OSCMcwQ18cXoYCwGxZ0": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "628.0",
+      "name": "Telecine Pipoca HD",
+      "url": "http://87.249.137.97:14940"
+    },
+    "-OSCMhqQVnaxYPOhCo_-": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "613.0",
+      "name": "Telecine Action HD",
+      "url": "http://87.249.137.97:14900"
+    },
+    "-OSCMrkMhkRNgt8rX7wn": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "633.0",
+      "name": "Telecine Premium HD",
+      "url": "http://87.249.137.97:14960"
+    },
+    "-OSCMyXRp3smDCBP_cHJ": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TCM.png",
+      "id": "740.0",
+      "name": "TCM FHD ",
+      "url": "http://87.249.137.97:14820"
+    },
+    "-OSCN8QAy7iWapr3ErSR": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "625.0",
+      "name": "Telecine Fun FHD",
+      "url": "http://87.249.137.97:14928"
+    },
+    "-OSCNDDhkkvHxExCowVK": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TELECINE.png",
+      "id": "623.0",
+      "name": "Telecine Fun HD",
+      "url": "http://87.249.137.97:14920"
+    },
+    "-OSCNJHtYSMCrpZASfS3": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TNTSERIES.png",
+      "id": "736.0",
+      "name": "TNT Series HD",
+      "url": "http://87.249.137.97:14020"
+    },
+    "-OSCNPIdnxfMhIFdnXC1": {
+      "icon": "http://beststorage4you.com:80/logoscanais/CINEMAX.png",
+      "id": "681.0",
+      "name": "Cinemax HD²",
+      "url": "http://87.249.137.97:14280"
+    },
+    "-OSCNWLlK16V0hpCWS7r": {
+      "icon": "http://beststorage4you.com:80/logoscanais/TNT.png",
+      "id": "264556.0",
+      "name": "TNT Novelas  HD",
+      "url": "http://87.249.137.97:14038"
     }
   }
 
